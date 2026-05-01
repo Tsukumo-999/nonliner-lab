@@ -17,8 +17,30 @@ Experimental results and detailed discussions are available at:
 
 ## Installation
 
-''' bash
+Prerequisites
+ - Python 3.12+
+ - (Python venv)
+ - PyTorch
+ - CUDA
+
+### 1. git clone
+``` bash
 git clone https://github.com/Tsukumo-999/nonliner-lab.git
 cd nonlinear-lab
+```
+### 2. make virturl env
+python venvによる仮想環境を推奨しています
+``` bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. pip install
+``` bash
 pip install -r requirements.txt
-'''
+```
+
+## 起動  
+``` bash
+jupyter notebook
+```
